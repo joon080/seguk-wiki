@@ -1,0 +1,23 @@
+<header class="wiki-header">
+  <a class="brand" routerLink="/home">나무위키(학교 이벤트)</a>
+  <input class="search" placeholder="검색 (임시)" />
+</header>
+
+<div class="wiki-layout">
+  <nav class="wiki-side">
+    <h3>문서</h3>
+    <ul>
+      <li><a routerLink="/home">대문</a></li>
+      <li><a routerLink="/history">역사</a></li>
+      <li><a routerLink="/faq">FAQ</a></li>
+    </ul>
+  </nav>
+
+  <main class="wiki-main">
+    <router-outlet></router-outlet>
+  </main>
+</div>
+
+<footer class="wiki-footer">
+  <p>학교 이벤트 위키 · Powered by Angular</p>
+</footer>
