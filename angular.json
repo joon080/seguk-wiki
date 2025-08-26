@@ -24,7 +24,7 @@
                 "input": "public"
               },
               {
-                "glob": "**/*.md",
+                "glob": "**/*",
                 "input": "src/content",
                 "output": "/content"
               }
