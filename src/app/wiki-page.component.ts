@@ -49,7 +49,7 @@ import { CommonModule } from '@angular/common';
   `]
 })
 export class WikiPageComponent {
-  docs = ['자율동아리.md', '정치 체계.md', '교과(과목).md', '2025년 2-4.md', '식생.md'];
+  docs = ['관종돼지반.md', '자율동아리.md', '정치 체계.md', '교과(과목).md', '식생.md', '논란 및 사건사고.md'];
   selectedDoc = this.docs[0];
   content = '';
   error = '';
