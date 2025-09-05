@@ -70,7 +70,7 @@ export class WikiPageComponent {
   loadDoc(doc: string) {
     this.error = '';
     if (typeof window !== 'undefined') {
-      fetch('/content/' + doc)
+      fetch('content/' + doc)
         .then(res => {
           if (!res.ok) throw new Error(`Cannot GET /content/${doc}`);
           return res.text();
